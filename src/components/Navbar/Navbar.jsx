@@ -3,7 +3,7 @@ import { AppBar, Toolbar, IconButton, Badge, MenuItem, Menu, Typography } from '
 import { ShoppingCart } from '@material-ui/icons';
 import { Link, useLocation } from 'react-router-dom';
 
-import logo from '../../assets/commerce.png';
+import logo from '../../assets/Logo.png';
 import useStyles from './styles';
 
 const Navbar = ( {totalItems} ) => {
@@ -15,8 +15,8 @@ const Navbar = ( {totalItems} ) => {
             <AppBar position="fixed" className={classes.appBar} color="inherit">
                 <Toolbar>
                     <Typography component={Link} to="/" variant="h6" className={classes.title} color="inherit">
-                        <img src={logo} alt="Commerce.js" height="25px" className={classes.image} />
-                        Commerce.js
+                        <img src={logo} alt="Bhookime WebStore" height="25px" className={classes.image} />
+                        Bhookime - WebStore
                     </Typography>
                     <div className={classes.grow} />
                     {location.pathname === '/' &&(
