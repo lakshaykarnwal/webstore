@@ -1,7 +1,7 @@
 # WebStore for Bhookime
 
 Made a WebStore according to Bhookime's requirements for Bake sales and merchandise.
-[Live Website](http://localhost:3000/).
+[Live Website](https://bhookimewebstore.netlify.app/).
 
 # Technologies used
 ## Frontend
